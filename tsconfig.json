@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"strict": true,
+		"moduleResolution": "node",
+		"outDir": "dist",
+		"declaration": true,
+		"alwaysStrict": true,
+		"removeComments": false,
+		"pretty": true,
+		"resolveJsonModule": false,
+		"target": "esnext",
+		"module": "commonjs",
+		"types": ["node"],
+		"declarationDir": "dist/@types",
+		"lib": [
+			"esnext",
+			"esnext.array",
+		],
+		"skipDefaultLibCheck": true,
+		"sourceMap": false
+	},
+	"include": [ "src/**/*" ],
+	"exclude": [ "node_modules", "dist" ]
+}

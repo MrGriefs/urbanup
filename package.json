@@ -1,0 +1,47 @@
+{
+  "name": "urbanup",
+  "version": "0.1.0",
+  "description": "An up-to-date API wrapper for Urban Dictionary",
+  "main": "dist/index.js",
+  "types": "dist/@types/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "lint": "eslint src",
+    "fix": "eslint src --fix",
+    "build": "npm run lint && tsc",
+    "prepublish": "npm run build",
+    "test": "npm run build"
+  },
+  "author": "Hagen Hyena <hagen@paw.bot>",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "@typescript-eslint/eslint-plugin": "^4.20.0",
+    "@typescript-eslint/parser": "^4.20.0",
+    "eslint": "^7.23.0",
+    "typescript": "^4.2.3"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  },
+  "engines": {
+    "node": "^15.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrGriefs/urbanup.git"
+  },
+  "keywords": [
+    "urban dictionary",
+    "dictionary",
+    "typescript",
+    "javascript",
+    "wrapper"
+  ],
+  "bugs": {
+    "url": "https://github.com/MrGriefs/urbanup/issues"
+  },
+  "homepage": "https://github.com/MrGriefs/urbanup#readme"
+}
