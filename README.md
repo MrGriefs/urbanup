@@ -83,10 +83,10 @@ To request a random page of defintions:
 const urbanup = require('urbanup') // CommonJS
 import * as urbanup from "urbanup" // ES6
 
-urbanup.random(query, options).then(def => console.log(def))
+urbanup.random(options).then(def => console.log(def))
 
 // You can also get the first result only:
-urbanup.random.one(query, options).then(def => console.log(def.permalink))
+urbanup.random.one(options).then(def => console.log(def.permalink))
 ```
 
 ### API Options
