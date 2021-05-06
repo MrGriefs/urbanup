@@ -1,7 +1,7 @@
 {
   "name": "urbanup",
-  "version": "0.1.1",
-  "description": "An up-to-date API wrapper for Urban Dictionary",
+  "version": "0.2.0",
+  "description": "A modern API wrapper for Urban Dictionary",
   "main": "dist/index.js",
   "types": "dist/@types/index.d.ts",
   "files": [
