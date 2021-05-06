@@ -35,6 +35,5 @@ export default class Base {
         // Request the API
         return await axios.get("https://api.urbandictionary.com/" + endpoint, ops)
             .then(cb)
-            .catch(e => e)
     }
 }
